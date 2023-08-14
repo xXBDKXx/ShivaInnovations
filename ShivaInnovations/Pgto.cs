@@ -16,11 +16,12 @@ namespace ShivaInnovations
     public partial class Pgto : Form
     {
         DAO conectar;
+       
         public Pgto()
         {
             InitializeComponent();
             conectar = new DAO();               //Ligando o Banco de dados a tabela
-
+ 
         }//Fim do construtor
 
         private void button1_Click(object sender, EventArgs e)
@@ -62,5 +63,7 @@ namespace ShivaInnovations
         {
 
         }// ingressos
+
+        
     }//fim da classe
 }//Fim do projeto

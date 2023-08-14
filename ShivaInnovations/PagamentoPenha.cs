@@ -27,8 +27,10 @@ namespace ShivaInnovations
 
         private void Voltar_Click(object sender, EventArgs e)
         {
-
-
-        }
+            var form = new Eventos();
+            form.Hide();
+            var form2 = new Eventos();
+            this.Hide();  //vai “esconder” o formulário atual
+        }//Voltar
     }//fim da classe   
 }//fim do projeto

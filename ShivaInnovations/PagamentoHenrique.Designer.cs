@@ -126,6 +126,7 @@
             this.Voltar.TabIndex = 18;
             this.Voltar.Text = "Voltar";
             this.Voltar.UseVisualStyleBackColor = false;
+            this.Voltar.Click += new System.EventHandler(this.Voltar_Click);
             // 
             // PagamentoHenrique
             // 

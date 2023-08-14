@@ -26,7 +26,12 @@ namespace ShivaInnovations
 
         private void Eventos_Load(object sender, EventArgs e)
         {
-
+            var form = new PagamentoPenha();
+            this.Hide();  //vai “esconder” o formulário atual
+            var form2 = new PagamentoArana();
+            this.Hide();  //vai “esconder” o formulário atual
+            var form3 = new PagamentoHenrique();
+            this.Hide();  //vai “esconder” o formulário atual
         }//Tela
 
         private void ComprarArana_Click(object sender, EventArgs e)
